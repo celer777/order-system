@@ -7,8 +7,8 @@ spring:
     time-zone: Asia/Shanghai
   datasource:
     url: jdbc:mysql://localhost:3306/order_system?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&allowPublicKeyRetrieval=true
-    username: root
-    password: gfqe229075
+    username: 你的数据库用户名
+    password: 你的数据库密码
     driver-class-name: com.mysql.cj.jdbc.Driver
   data:
     redis:
