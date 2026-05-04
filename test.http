@@ -1,0 +1,24 @@
+### 查询用户
+GET http://localhost:8080/user/1
+
+### 注册用户
+POST http://localhost:8080/user/register
+Content-Type: application/json
+
+{
+  "username": "wangwu",
+  "phone": "13800003333"
+}
+
+### 创建订单
+POST http://localhost:8080/order/create
+Content-Type: application/json
+
+{
+  "userId": 3,
+  "productName": "iPad",
+  "price": 3599.00
+}
+
+### 查用户订单
+GET http://localhost:8080/order/user/3
